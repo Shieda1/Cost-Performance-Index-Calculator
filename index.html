@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cost Performance Index Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="costPerformanceIndexRadio" name="variables" checked>
+  <label for="costPerformanceIndexRadio">Cost Performance Index</label>
+
+  <input type="radio" id="earnedValueRadio" name="variables">
+  <label for="earnedValueRadio">Earned Value</label>
+
+  <input type="radio" id="actualCostRadio" name="variables">
+  <label for="actualCostRadio">Actual Cost</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Earned Value</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Actual Cost</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
